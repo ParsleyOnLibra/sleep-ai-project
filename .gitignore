@@ -1,0 +1,16 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+.venv/
+.env
+.env.*
+eeg_data/
+output/
+*.edf
+*.npz
+*.joblib
+*.zip
+export.xml
+export_cda.xml
+apple_health_export/
+private_data/
