@@ -1,0 +1,62 @@
+[
+  {
+    "subject": 0,
+    "night": 1,
+    "reason_counts": {}
+  },
+  {
+    "subject": 1,
+    "night": 1,
+    "reason_counts": {}
+  },
+  {
+    "subject": 2,
+    "night": 1,
+    "reason_counts": {
+      "EOG horizontal:high_amplitude": 3
+    }
+  },
+  {
+    "subject": 3,
+    "night": 1,
+    "reason_counts": {}
+  },
+  {
+    "subject": 4,
+    "night": 1,
+    "reason_counts": {
+      "EOG horizontal:high_amplitude": 11
+    }
+  },
+  {
+    "subject": 5,
+    "night": 1,
+    "reason_counts": {
+      "EOG horizontal:high_amplitude": 2
+    }
+  },
+  {
+    "subject": 6,
+    "night": 1,
+    "reason_counts": {
+      "EOG horizontal:high_amplitude": 1215
+    }
+  },
+  {
+    "subject": 7,
+    "night": 1,
+    "reason_counts": {}
+  },
+  {
+    "subject": 8,
+    "night": 1,
+    "reason_counts": {
+      "EOG horizontal:high_amplitude": 2
+    }
+  },
+  {
+    "subject": 9,
+    "night": 1,
+    "reason_counts": {}
+  }
+]

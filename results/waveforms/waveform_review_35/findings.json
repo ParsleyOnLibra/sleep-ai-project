@@ -1,0 +1,158 @@
+[
+  {
+    "subject": 3,
+    "file": "SC4031E0-PSG.edf",
+    "sha256": "ce2314a60dd6e1437f9cd720c2e59c23aabe471e4821f9544593109a9b0715dd",
+    "records": 2820,
+    "channels": [
+      {
+        "channel": "EEG Fpz-Cz",
+        "rail_epochs": 0,
+        "rail_samples": 0,
+        "range_uv": [
+          -197.0,
+          199.0
+        ],
+        "native_hz": 100.0
+      },
+      {
+        "channel": "EEG Pz-Oz",
+        "rail_epochs": 25,
+        "rail_samples": 319,
+        "range_uv": [
+          -194.0,
+          196.0
+        ],
+        "native_hz": 100.0
+      },
+      {
+        "channel": "EOG horizontal",
+        "rail_epochs": 0,
+        "rail_samples": 0,
+        "range_uv": [
+          -917.0,
+          924.0
+        ],
+        "native_hz": 100.0
+      },
+      {
+        "channel": "EMG submental",
+        "rail_epochs": 0,
+        "rail_samples": 0,
+        "range_uv": [
+          -5.0,
+          5.0
+        ],
+        "native_hz": 1.0
+      }
+    ],
+    "selected_channel": "EEG Pz-Oz",
+    "selected_epochs": [
+      {
+        "epoch": 1550,
+        "start_seconds": 46500,
+        "rail_samples": 0,
+        "rail_fraction": 0.0,
+        "longest_same_rail_seconds": 0.0,
+        "longest_start_sample": 0,
+        "ptp_uv": 111.7142857142857
+      },
+      {
+        "epoch": 1551,
+        "start_seconds": 46530,
+        "rail_samples": 82,
+        "rail_fraction": 0.027333333333333334,
+        "longest_same_rail_seconds": 0.33,
+        "longest_start_sample": 1387,
+        "ptp_uv": 390.0
+      },
+      {
+        "epoch": 1552,
+        "start_seconds": 46560,
+        "rail_samples": 0,
+        "rail_fraction": 0.0,
+        "longest_same_rail_seconds": 0.0,
+        "longest_start_sample": 0,
+        "ptp_uv": 113.71428571428572
+      }
+    ]
+  },
+  {
+    "subject": 5,
+    "file": "SC4051E0-PSG.edf",
+    "sha256": "e460a9589726f19a1fe544fb79c46f82562229f19696e0c0fb5ffd9f959dab7c",
+    "records": 2722,
+    "channels": [
+      {
+        "channel": "EEG Fpz-Cz",
+        "rail_epochs": 136,
+        "rail_samples": 847,
+        "range_uv": [
+          -180.0,
+          182.0
+        ],
+        "native_hz": 100.0
+      },
+      {
+        "channel": "EEG Pz-Oz",
+        "rail_epochs": 0,
+        "rail_samples": 0,
+        "range_uv": [
+          -194.0,
+          195.0
+        ],
+        "native_hz": 100.0
+      },
+      {
+        "channel": "EOG horizontal",
+        "rail_epochs": 0,
+        "rail_samples": 0,
+        "range_uv": [
+          -899.0,
+          902.0
+        ],
+        "native_hz": 100.0
+      },
+      {
+        "channel": "EMG submental",
+        "rail_epochs": 0,
+        "rail_samples": 0,
+        "range_uv": [
+          -5.0,
+          5.0
+        ],
+        "native_hz": 1.0
+      }
+    ],
+    "selected_channel": "EEG Fpz-Cz",
+    "selected_epochs": [
+      {
+        "epoch": 1176,
+        "start_seconds": 35280,
+        "rail_samples": 0,
+        "rail_fraction": 0.0,
+        "longest_same_rail_seconds": 0.0,
+        "longest_start_sample": 0,
+        "ptp_uv": 335.391452991453
+      },
+      {
+        "epoch": 1177,
+        "start_seconds": 35310,
+        "rail_samples": 27,
+        "rail_fraction": 0.009,
+        "longest_same_rail_seconds": 0.27,
+        "longest_start_sample": 728,
+        "ptp_uv": 360.14358974358976
+      },
+      {
+        "epoch": 1178,
+        "start_seconds": 35340,
+        "rail_samples": 0,
+        "rail_fraction": 0.0,
+        "longest_same_rail_seconds": 0.0,
+        "longest_start_sample": 0,
+        "ptp_uv": 116.51184371184371
+      }
+    ]
+  }
+]

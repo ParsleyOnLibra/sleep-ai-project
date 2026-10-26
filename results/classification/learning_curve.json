@@ -1,0 +1,22 @@
+[
+  {
+    "n_subjects": 1,
+    "subject_mean_macro_f1": 0.7350761008000208,
+    "balanced_accuracy": 0.7501739325869287
+  },
+  {
+    "n_subjects": 2,
+    "subject_mean_macro_f1": 0.7594086504623178,
+    "balanced_accuracy": 0.7633701189853467
+  },
+  {
+    "n_subjects": 4,
+    "subject_mean_macro_f1": 0.8000233545490091,
+    "balanced_accuracy": 0.7976582680048623
+  },
+  {
+    "n_subjects": 6,
+    "subject_mean_macro_f1": 0.8148239395439785,
+    "balanced_accuracy": 0.8127369747234681
+  }
+]

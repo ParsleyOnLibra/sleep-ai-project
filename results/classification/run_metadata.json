@@ -1,0 +1,64 @@
+{
+  "status": "started",
+  "config": {
+    "subjects": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "nights": [
+      1
+    ],
+    "data_dir": "eeg_data",
+    "out": "output/experiment_10_02",
+    "offline": false,
+    "download_only": false,
+    "smoke": false,
+    "retries": 2,
+    "timeout": 30.0,
+    "seed": 42,
+    "trees": 160,
+    "jobs": 2,
+    "window": "full",
+    "learning_curve": true
+  },
+  "split": {
+    "train": [
+      3,
+      2,
+      4,
+      9,
+      1,
+      8
+    ],
+    "validation": [
+      0,
+      7
+    ],
+    "test": [
+      5,
+      6
+    ]
+  },
+  "python": "3.15.0",
+  "versions": {
+    "mne": "1.13.2",
+    "numpy": "2.5.4",
+    "scipy": "1.18.1",
+    "sklearn": "1.9.1"
+  },
+  "code_sha256": {
+    "features.py": "e65eb19d8e18b7396aa73812d584725798dd5bcb44e05c7ba19988e28ab26ded",
+    "eeg_train.py": "c992184b34d8fdb4a09e4d899f666d29297ba6fdf93d5b06bbebec3c46713bd0",
+    "transitions.py": "0e26b720c4f1964a370c0dea9d9a035987d5deed4d98722c3f3cc0bda525f091",
+    "data.py": "99dc309347c6e42579c090e4b50708615790149b0f54a57f5c7e4428ae8a6fa5"
+  },
+  "portfolio_note": "Original v0.3 run metadata; local path redacted. Not a v0.4.1 rerun log."
+}

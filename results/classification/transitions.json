@@ -1,0 +1,93 @@
+{
+  "definition": "Adjacent reference Wake->N1; match alert END within (0,120] seconds after observing at least one reference epoch; one-to-one. Not clinical sleep latency.",
+  "threshold": 0.35,
+  "n1_confirm_epochs": 2,
+  "records": [
+    {
+      "subject": 5,
+      "night": 1,
+      "reference_events": 11,
+      "alerts": 8,
+      "matched": 2,
+      "missed": 9,
+      "precision": 0.25,
+      "recall": 0.18181818181818182,
+      "unmatched_alerts_per_valid_hour": 0.2647058823529412,
+      "median_delay_s": 60.0,
+      "valid_hours": 22.666666666666668,
+      "details": [
+        {
+          "reference_start_s": 47280.0,
+          "decision_s": 47340.0,
+          "delay_s": 60.0,
+          "evidence_end_s": 47340.0
+        },
+        {
+          "reference_start_s": 48030.0,
+          "decision_s": 48090.0,
+          "delay_s": 60.0,
+          "evidence_end_s": 48090.0
+        }
+      ],
+      "unmatched_decision_s": [
+        33750.0,
+        37080.0,
+        46500.0,
+        46950.0,
+        55140.0,
+        55350.0
+      ],
+      "missed_reference_start_s": [
+        38670.0,
+        42930.0,
+        43050.0,
+        43320.0,
+        47520.0,
+        48120.0,
+        54630.0,
+        54810.0,
+        55170.0
+      ]
+    },
+    {
+      "subject": 6,
+      "night": 1,
+      "reference_events": 9,
+      "alerts": 4,
+      "matched": 2,
+      "missed": 7,
+      "precision": 0.5,
+      "recall": 0.2222222222222222,
+      "unmatched_alerts_per_valid_hour": 0.15434083601286172,
+      "median_delay_s": 60.0,
+      "valid_hours": 12.958333333333334,
+      "details": [
+        {
+          "reference_start_s": 29760.0,
+          "decision_s": 29820.0,
+          "delay_s": 60.0,
+          "evidence_end_s": 29820.0
+        },
+        {
+          "reference_start_s": 42150.0,
+          "decision_s": 42210.0,
+          "delay_s": 60.0,
+          "evidence_end_s": 42210.0
+        }
+      ],
+      "unmatched_decision_s": [
+        28050.0,
+        42810.0
+      ],
+      "missed_reference_start_s": [
+        28050.0,
+        30120.0,
+        30270.0,
+        39630.0,
+        42810.0,
+        47670.0,
+        48690.0
+      ]
+    }
+  ]
+}

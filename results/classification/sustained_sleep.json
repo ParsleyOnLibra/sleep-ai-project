@@ -1,0 +1,623 @@
+{
+  "exploratory": true,
+  "definition": "All sleep stages; strict continuity; QC/gaps reset; onset +/-120s and decision after reference confirmation, within reference bout. Not clinical SOL. No criterion selected on test.",
+  "records": [
+    {
+      "subject": 5,
+      "night": 1,
+      "criteria": [
+        {
+          "minutes": 2,
+          "reference_bouts": 6,
+          "predicted_bouts": 8,
+          "matched": 1,
+          "missed": 5,
+          "precision": 0.125,
+          "recall": 0.16666666666666666,
+          "details": [
+            {
+              "reference_start_s": 47280.0,
+              "estimated_start_s": 47280.0,
+              "confirmation_s": 47400.0,
+              "start_error_s": 0.0,
+              "detection_delay_s": 120.0
+            }
+          ],
+          "unmatched_predictions": [
+            {
+              "start_s": 37020.0,
+              "confirmation_s": 37140.0,
+              "end_s": 37140.0
+            },
+            {
+              "start_s": 38250.0,
+              "confirmation_s": 38370.0,
+              "end_s": 38370.0
+            },
+            {
+              "start_s": 38610.0,
+              "confirmation_s": 38730.0,
+              "end_s": 45960.0
+            },
+            {
+              "start_s": 46440.0,
+              "confirmation_s": 46560.0,
+              "end_s": 46680.0
+            },
+            {
+              "start_s": 46890.0,
+              "confirmation_s": 47010.0,
+              "end_s": 47070.0
+            },
+            {
+              "start_s": 48030.0,
+              "confirmation_s": 48150.0,
+              "end_s": 54900.0
+            },
+            {
+              "start_s": 55080.0,
+              "confirmation_s": 55200.0,
+              "end_s": 55200.0
+            }
+          ],
+          "missed_references": [
+            {
+              "start_s": 38670.0,
+              "confirmation_s": 38790.0,
+              "end_s": 42870.0
+            },
+            {
+              "start_s": 43050.0,
+              "confirmation_s": 43170.0,
+              "end_s": 43290.0
+            },
+            {
+              "start_s": 43320.0,
+              "confirmation_s": 43440.0,
+              "end_s": 45750.0
+            },
+            {
+              "start_s": 47520.0,
+              "confirmation_s": 47640.0,
+              "end_s": 47790.0
+            },
+            {
+              "start_s": 48120.0,
+              "confirmation_s": 48240.0,
+              "end_s": 54450.0
+            }
+          ],
+          "first_reference": {
+            "start_s": 38670.0,
+            "confirmation_s": 38790.0,
+            "end_s": 42870.0
+          },
+          "first_prediction": {
+            "start_s": 37020.0,
+            "confirmation_s": 37140.0,
+            "end_s": 37140.0
+          }
+        },
+        {
+          "minutes": 5,
+          "reference_bouts": 3,
+          "predicted_bouts": 3,
+          "matched": 0,
+          "missed": 3,
+          "precision": 0.0,
+          "recall": 0.0,
+          "details": [],
+          "unmatched_predictions": [
+            {
+              "start_s": 38610.0,
+              "confirmation_s": 38910.0,
+              "end_s": 45960.0
+            },
+            {
+              "start_s": 47280.0,
+              "confirmation_s": 47580.0,
+              "end_s": 47790.0
+            },
+            {
+              "start_s": 48030.0,
+              "confirmation_s": 48330.0,
+              "end_s": 54900.0
+            }
+          ],
+          "missed_references": [
+            {
+              "start_s": 38670.0,
+              "confirmation_s": 38970.0,
+              "end_s": 42870.0
+            },
+            {
+              "start_s": 43320.0,
+              "confirmation_s": 43620.0,
+              "end_s": 45750.0
+            },
+            {
+              "start_s": 48120.0,
+              "confirmation_s": 48420.0,
+              "end_s": 54450.0
+            }
+          ],
+          "first_reference": {
+            "start_s": 38670.0,
+            "confirmation_s": 38970.0,
+            "end_s": 42870.0
+          },
+          "first_prediction": {
+            "start_s": 38610.0,
+            "confirmation_s": 38910.0,
+            "end_s": 45960.0
+          }
+        },
+        {
+          "minutes": 10,
+          "reference_bouts": 3,
+          "predicted_bouts": 2,
+          "matched": 0,
+          "missed": 3,
+          "precision": 0.0,
+          "recall": 0.0,
+          "details": [],
+          "unmatched_predictions": [
+            {
+              "start_s": 38610.0,
+              "confirmation_s": 39210.0,
+              "end_s": 45960.0
+            },
+            {
+              "start_s": 48030.0,
+              "confirmation_s": 48630.0,
+              "end_s": 54900.0
+            }
+          ],
+          "missed_references": [
+            {
+              "start_s": 38670.0,
+              "confirmation_s": 39270.0,
+              "end_s": 42870.0
+            },
+            {
+              "start_s": 43320.0,
+              "confirmation_s": 43920.0,
+              "end_s": 45750.0
+            },
+            {
+              "start_s": 48120.0,
+              "confirmation_s": 48720.0,
+              "end_s": 54450.0
+            }
+          ],
+          "first_reference": {
+            "start_s": 38670.0,
+            "confirmation_s": 39270.0,
+            "end_s": 42870.0
+          },
+          "first_prediction": {
+            "start_s": 38610.0,
+            "confirmation_s": 39210.0,
+            "end_s": 45960.0
+          }
+        }
+      ]
+    },
+    {
+      "subject": 6,
+      "night": 1,
+      "criteria": [
+        {
+          "minutes": 2,
+          "reference_bouts": 13,
+          "predicted_bouts": 17,
+          "matched": 8,
+          "missed": 5,
+          "precision": 0.47058823529411764,
+          "recall": 0.6153846153846154,
+          "details": [
+            {
+              "reference_start_s": 29760.0,
+              "estimated_start_s": 29760.0,
+              "confirmation_s": 29880.0,
+              "start_error_s": 0.0,
+              "detection_delay_s": 120.0
+            },
+            {
+              "reference_start_s": 40950.0,
+              "estimated_start_s": 40950.0,
+              "confirmation_s": 41070.0,
+              "start_error_s": 0.0,
+              "detection_delay_s": 120.0
+            },
+            {
+              "reference_start_s": 42150.0,
+              "estimated_start_s": 42150.0,
+              "confirmation_s": 42270.0,
+              "start_error_s": 0.0,
+              "detection_delay_s": 120.0
+            },
+            {
+              "reference_start_s": 45450.0,
+              "estimated_start_s": 45450.0,
+              "confirmation_s": 45570.0,
+              "start_error_s": 0.0,
+              "detection_delay_s": 120.0
+            },
+            {
+              "reference_start_s": 46260.0,
+              "estimated_start_s": 46260.0,
+              "confirmation_s": 46380.0,
+              "start_error_s": 0.0,
+              "detection_delay_s": 120.0
+            },
+            {
+              "reference_start_s": 47670.0,
+              "estimated_start_s": 47670.0,
+              "confirmation_s": 47790.0,
+              "start_error_s": 0.0,
+              "detection_delay_s": 120.0
+            },
+            {
+              "reference_start_s": 48690.0,
+              "estimated_start_s": 48690.0,
+              "confirmation_s": 48810.0,
+              "start_error_s": 0.0,
+              "detection_delay_s": 120.0
+            },
+            {
+              "reference_start_s": 48870.0,
+              "estimated_start_s": 48870.0,
+              "confirmation_s": 48990.0,
+              "start_error_s": 0.0,
+              "detection_delay_s": 120.0
+            }
+          ],
+          "unmatched_predictions": [
+            {
+              "start_s": 27990.0,
+              "confirmation_s": 28110.0,
+              "end_s": 29670.0
+            },
+            {
+              "start_s": 30240.0,
+              "confirmation_s": 30360.0,
+              "end_s": 32160.0
+            },
+            {
+              "start_s": 32190.0,
+              "confirmation_s": 32310.0,
+              "end_s": 32970.0
+            },
+            {
+              "start_s": 33000.0,
+              "confirmation_s": 33120.0,
+              "end_s": 33330.0
+            },
+            {
+              "start_s": 33450.0,
+              "confirmation_s": 33570.0,
+              "end_s": 35130.0
+            },
+            {
+              "start_s": 35160.0,
+              "confirmation_s": 35280.0,
+              "end_s": 36030.0
+            },
+            {
+              "start_s": 36120.0,
+              "confirmation_s": 36240.0,
+              "end_s": 39330.0
+            },
+            {
+              "start_s": 39360.0,
+              "confirmation_s": 39480.0,
+              "end_s": 40920.0
+            },
+            {
+              "start_s": 42750.0,
+              "confirmation_s": 42870.0,
+              "end_s": 45420.0
+            }
+          ],
+          "missed_references": [
+            {
+              "start_s": 28050.0,
+              "confirmation_s": 28170.0,
+              "end_s": 29670.0
+            },
+            {
+              "start_s": 30270.0,
+              "confirmation_s": 30390.0,
+              "end_s": 39600.0
+            },
+            {
+              "start_s": 39630.0,
+              "confirmation_s": 39750.0,
+              "end_s": 40920.0
+            },
+            {
+              "start_s": 42810.0,
+              "confirmation_s": 42930.0,
+              "end_s": 45420.0
+            },
+            {
+              "start_s": 48390.0,
+              "confirmation_s": 48510.0,
+              "end_s": 48660.0
+            }
+          ],
+          "first_reference": {
+            "start_s": 28050.0,
+            "confirmation_s": 28170.0,
+            "end_s": 29670.0
+          },
+          "first_prediction": {
+            "start_s": 27990.0,
+            "confirmation_s": 28110.0,
+            "end_s": 29670.0
+          }
+        },
+        {
+          "minutes": 5,
+          "reference_bouts": 11,
+          "predicted_bouts": 16,
+          "matched": 7,
+          "missed": 4,
+          "precision": 0.4375,
+          "recall": 0.6363636363636364,
+          "details": [
+            {
+              "reference_start_s": 29760.0,
+              "estimated_start_s": 29760.0,
+              "confirmation_s": 30060.0,
+              "start_error_s": 0.0,
+              "detection_delay_s": 300.0
+            },
+            {
+              "reference_start_s": 40950.0,
+              "estimated_start_s": 40950.0,
+              "confirmation_s": 41250.0,
+              "start_error_s": 0.0,
+              "detection_delay_s": 300.0
+            },
+            {
+              "reference_start_s": 42150.0,
+              "estimated_start_s": 42150.0,
+              "confirmation_s": 42450.0,
+              "start_error_s": 0.0,
+              "detection_delay_s": 300.0
+            },
+            {
+              "reference_start_s": 45450.0,
+              "estimated_start_s": 45450.0,
+              "confirmation_s": 45750.0,
+              "start_error_s": 0.0,
+              "detection_delay_s": 300.0
+            },
+            {
+              "reference_start_s": 46260.0,
+              "estimated_start_s": 46260.0,
+              "confirmation_s": 46560.0,
+              "start_error_s": 0.0,
+              "detection_delay_s": 300.0
+            },
+            {
+              "reference_start_s": 47670.0,
+              "estimated_start_s": 47670.0,
+              "confirmation_s": 47970.0,
+              "start_error_s": 0.0,
+              "detection_delay_s": 300.0
+            },
+            {
+              "reference_start_s": 48870.0,
+              "estimated_start_s": 48870.0,
+              "confirmation_s": 49170.0,
+              "start_error_s": 0.0,
+              "detection_delay_s": 300.0
+            }
+          ],
+          "unmatched_predictions": [
+            {
+              "start_s": 27990.0,
+              "confirmation_s": 28290.0,
+              "end_s": 29670.0
+            },
+            {
+              "start_s": 30240.0,
+              "confirmation_s": 30540.0,
+              "end_s": 32160.0
+            },
+            {
+              "start_s": 32190.0,
+              "confirmation_s": 32490.0,
+              "end_s": 32970.0
+            },
+            {
+              "start_s": 33000.0,
+              "confirmation_s": 33300.0,
+              "end_s": 33330.0
+            },
+            {
+              "start_s": 33450.0,
+              "confirmation_s": 33750.0,
+              "end_s": 35130.0
+            },
+            {
+              "start_s": 35160.0,
+              "confirmation_s": 35460.0,
+              "end_s": 36030.0
+            },
+            {
+              "start_s": 36120.0,
+              "confirmation_s": 36420.0,
+              "end_s": 39330.0
+            },
+            {
+              "start_s": 39360.0,
+              "confirmation_s": 39660.0,
+              "end_s": 40920.0
+            },
+            {
+              "start_s": 42750.0,
+              "confirmation_s": 43050.0,
+              "end_s": 45420.0
+            }
+          ],
+          "missed_references": [
+            {
+              "start_s": 28050.0,
+              "confirmation_s": 28350.0,
+              "end_s": 29670.0
+            },
+            {
+              "start_s": 30270.0,
+              "confirmation_s": 30570.0,
+              "end_s": 39600.0
+            },
+            {
+              "start_s": 39630.0,
+              "confirmation_s": 39930.0,
+              "end_s": 40920.0
+            },
+            {
+              "start_s": 42810.0,
+              "confirmation_s": 43110.0,
+              "end_s": 45420.0
+            }
+          ],
+          "first_reference": {
+            "start_s": 28050.0,
+            "confirmation_s": 28350.0,
+            "end_s": 29670.0
+          },
+          "first_prediction": {
+            "start_s": 27990.0,
+            "confirmation_s": 28290.0,
+            "end_s": 29670.0
+          }
+        },
+        {
+          "minutes": 10,
+          "reference_bouts": 9,
+          "predicted_bouts": 13,
+          "matched": 5,
+          "missed": 4,
+          "precision": 0.38461538461538464,
+          "recall": 0.5555555555555556,
+          "details": [
+            {
+              "reference_start_s": 40950.0,
+              "estimated_start_s": 40950.0,
+              "confirmation_s": 41550.0,
+              "start_error_s": 0.0,
+              "detection_delay_s": 600.0
+            },
+            {
+              "reference_start_s": 45450.0,
+              "estimated_start_s": 45450.0,
+              "confirmation_s": 46050.0,
+              "start_error_s": 0.0,
+              "detection_delay_s": 600.0
+            },
+            {
+              "reference_start_s": 46260.0,
+              "estimated_start_s": 46260.0,
+              "confirmation_s": 46860.0,
+              "start_error_s": 0.0,
+              "detection_delay_s": 600.0
+            },
+            {
+              "reference_start_s": 47670.0,
+              "estimated_start_s": 47670.0,
+              "confirmation_s": 48270.0,
+              "start_error_s": 0.0,
+              "detection_delay_s": 600.0
+            },
+            {
+              "reference_start_s": 48870.0,
+              "estimated_start_s": 48870.0,
+              "confirmation_s": 49470.0,
+              "start_error_s": 0.0,
+              "detection_delay_s": 600.0
+            }
+          ],
+          "unmatched_predictions": [
+            {
+              "start_s": 27990.0,
+              "confirmation_s": 28590.0,
+              "end_s": 29670.0
+            },
+            {
+              "start_s": 30240.0,
+              "confirmation_s": 30840.0,
+              "end_s": 32160.0
+            },
+            {
+              "start_s": 32190.0,
+              "confirmation_s": 32790.0,
+              "end_s": 32970.0
+            },
+            {
+              "start_s": 33450.0,
+              "confirmation_s": 34050.0,
+              "end_s": 35130.0
+            },
+            {
+              "start_s": 35160.0,
+              "confirmation_s": 35760.0,
+              "end_s": 36030.0
+            },
+            {
+              "start_s": 36120.0,
+              "confirmation_s": 36720.0,
+              "end_s": 39330.0
+            },
+            {
+              "start_s": 39360.0,
+              "confirmation_s": 39960.0,
+              "end_s": 40920.0
+            },
+            {
+              "start_s": 42750.0,
+              "confirmation_s": 43350.0,
+              "end_s": 45420.0
+            }
+          ],
+          "missed_references": [
+            {
+              "start_s": 28050.0,
+              "confirmation_s": 28650.0,
+              "end_s": 29670.0
+            },
+            {
+              "start_s": 30270.0,
+              "confirmation_s": 30870.0,
+              "end_s": 39600.0
+            },
+            {
+              "start_s": 39630.0,
+              "confirmation_s": 40230.0,
+              "end_s": 40920.0
+            },
+            {
+              "start_s": 42810.0,
+              "confirmation_s": 43410.0,
+              "end_s": 45420.0
+            }
+          ],
+          "first_reference": {
+            "start_s": 28050.0,
+            "confirmation_s": 28650.0,
+            "end_s": 29670.0
+          },
+          "first_prediction": {
+            "start_s": 27990.0,
+            "confirmation_s": 28590.0,
+            "end_s": 29670.0
+          }
+        }
+      ]
+    }
+  ]
+}
